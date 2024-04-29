@@ -3,7 +3,7 @@ from environs import Env
 
 env = Env()
 env.read_env()
-BOT_TOKEN = "6188238802:AAGt8nI50W7uF2l_yefN9wUBeaArJtbLbUQ"
+BOT_TOKEN = ""
 ADMIN = env.list("ADMINS")
 IP = env.str("IP")
 
